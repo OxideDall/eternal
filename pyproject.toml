@@ -1,0 +1,9 @@
+[project]
+name = "eternal"
+version = "0.1.0"
+description = "Eternal Claude Code session memory: archive, log-tree view and benches over transcripts"
+requires-python = ">=3.12"
+dependencies = []
+
+[project.scripts]
+eternal = "eternal.__main__:main"

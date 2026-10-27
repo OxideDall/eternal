@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "eternal": {
+      "type": "stdio",
+      "command": "sh",
+      "args": ["-c", "cd \"$CLAUDE_PROJECT_DIR\" && exec python3 -m eternal.mcp"]
+    }
+  }
+}

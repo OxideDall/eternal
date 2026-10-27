@@ -1,0 +1,11 @@
+# archive data holds transcript text (may include secrets); it lives outside the repo
+data/
+*.db
+*.db-wal
+*.db-shm
+__pycache__/
+*.pyc
+.claude/settings.local.json
+# lists the author's transcript paths; `eternal freeze` writes one locally
+baseline/manifest.json
+.ruff_cache/
